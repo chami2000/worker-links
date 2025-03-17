@@ -8,7 +8,7 @@ main = "src/index.ts"
 kv_namespaces = [
   
   # Replace below line with your namespace ID ('yarn createkv' output) 
-  { binding = "KV", id = "1be44406edc142a084435e24dbf8ae1d", preview_id = "15cfb90ecd654b8f8a9ccd600832093f" }
+  { binding = "LINKS", id = "4a36476e04df4040a7aa79cb2bfafd7d", preview_id = "373541152e4848c9909210beb1d9d8bf" }
 
   ]
 
@@ -16,8 +16,8 @@ compatibility_flags = []
 compatibility_date = "2023-11-08"
 
 # Remove or comment out the route line if using workers_dev (and set below to true)
-workers_dev = false
-route = { pattern = "erisa.link/*", zone_name = "erisa.link" }
+workers_dev = true
+#route = { pattern = "erisa.link/*", zone_name = "erisa.link" }
 
 [vars]
-ENABLE_INDEX_FORM = false
+ENABLE_INDEX_FORM = true
