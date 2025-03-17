@@ -8,7 +8,7 @@ main = "src/index.ts"
 kv_namespaces = [
   
   # Replace below line with your namespace ID ('yarn createkv' output) 
-  { binding = "LINKS", id = "4a36476e04df4040a7aa79cb2bfafd7d", preview_id = "373541152e4848c9909210beb1d9d8bf" }
+  { binding = "KV", id = "4a36476e04df4040a7aa79cb2bfafd7d", preview_id = "373541152e4848c9909210beb1d9d8bf" }
 
   ]
 
